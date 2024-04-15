@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <title>تطبيق الملاحظات</title>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <aside>
+      <button id="add-button" class="add-button" aria-label="أضف ملاحظتك">أضف ملاحظة</button>
+      <div class="notes-wrapper"></div>
+    </aside>
+    <article>
+      <input type="text" value="أضف ملاحظة للبدء" class="title-area" id="title-area" aria-label="إكتب عنوان الملاحظة">
+      <textarea placeholder="أضف ملاحظة للبدء" class="content-area" id="text-area"
+        aria-label="إكتب محتوى الملاحظة"></textarea>
+    </article>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
